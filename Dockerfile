@@ -23,7 +23,7 @@ RUN apt-get install -y curl grep sed dpkg tmux && \
     apt-get clean
 
 
-RUN conda create -n tf21 python=3.6 tensorflow-gpu=2.1 librosa -c anaconda -c conda-forge
+RUN conda create -n tf21 python=3.6 tensorflow-gpu=2.2 librosa -c anaconda -c conda-forge
 #RUN conda init bash
 #ENV PATH /opt/conda/envs/tf21/bin:$PATH
 
